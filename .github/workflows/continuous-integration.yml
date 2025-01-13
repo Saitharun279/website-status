@@ -4,6 +4,8 @@
 name: Continuous Integration
 
 on:
+    workflow_dispatch:
+        branches: [ CI-test-branch ]
     pull_request:
         branches: ['**']
 
